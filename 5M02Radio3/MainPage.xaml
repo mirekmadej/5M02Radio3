@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_5M02Radio3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <HorizontalStackLayout>
+                <VerticalStackLayout>
+                    <RadioButton
+                        Content="Red"
+                        CheckedChanged="rbChanged"
+                        x:Name="rbRed"
+                        />
+                    <RadioButton
+                        Content="Green"
+                        CheckedChanged="rbChanged"
+                        x:Name="rbGreen"
+                        />
+                    <RadioButton
+                        Content="Blue"
+                        CheckedChanged="rbChanged"
+                        x:Name="rbBlue"
+                        
+                        />
+                </VerticalStackLayout>
+                <Label
+                    Text="napis próbny"
+                    FontSize="40"
+                    x:Name="lblNapis"
+                    TextColor="Blue"
+                    />  
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
